@@ -1,32 +1,37 @@
 body {
-    font-family: 'Consolas', monospace; /* Czcionka bardziej sci-fi */
+    font-family: 'Consolas', monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #111; /* Ciemniejsze tło */
-    color: #00ff00; /* Zielony tekst jak na starych monitorach */
+    background-color: #111;
+    color: #00ff00;
     margin: 20px;
 }
 
 h1 {
-    color: #ff0000; /* Czerwony nagłówek */
+    color: #ff0000;
     text-shadow: 0 0 5px #ff0000;
 }
 
 #gameCanvas {
-    background-color: #000; /* Całkowicie czarne tło gry */
-    border: 2px solid #00ff00; /* Zielona obwódka */
+    background-color: #000;
+    border: 2px solid #00ff00;
     margin-bottom: 15px;
 }
 
 #gameInfo {
     display: flex;
-    flex-wrap: wrap; /* Pozwoli na zawijanie wierszy na mniejszych ekranach */
-    gap: 20px 30px; /* Większy odstęp między kolumnami */
+    flex-wrap: wrap;
+    gap: 20px 30px;
     font-size: 1.2em;
-    color: #00ff00; /* Zielony tekst */
+    color: #00ff00;
 }
 
 #gameInfo p {
     margin: 0;
+}
+
+.reload {
+    color: #ff3333 !important;
+    font-weight: bold;
 }
